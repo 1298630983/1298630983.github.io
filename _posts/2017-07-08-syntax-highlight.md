@@ -1,55 +1,70 @@
-Git是一款免费，开源的分布式控制系统，用于敏捷高效地处理任何或小或大的项目。
-Git是一个开源的分布式版本控制系统，可以有效，高速的处理从很小到非常大的项目版本管理。
+---
+layout: post_layout
+title: Jekyll语法高亮问题
+time: 2017年07月08日 星期六
+location: 广州
+pulished: true
+excerpt_separator: "#"
+---
 
-## 基本操作
 
-1. 记录更新（git add）
-2. 提交更新（git commit）
-3. 查看文件的状态（git status）
-4. 移除文件（git rm）
-5. 推送本地更新到服务器（git push）
-6. 拉服务器更新到本地（git pull）
-7. 查看版本历史（git log）
-8. 撤销未提交的修改（git reset）
-9. 创建新提交来撤销前期提交的修改（git revert）
-10. 版本回退（git checkout）
-11. 分支管理（git branch） 
-12. 储藏修改（git stash）
-13. 标签（git tag）
+Jekyll 的语法高亮在 Jekyll 3.0 以上默认使用的是 [Rouge](http://rouge.jneen.net/),
+如果使用的是 Jekyll 2, 需要在配置文件里面设置 `highlighter` 为 `rouge`,
+ 并确保 rouge 被正确的安装了
 
-## 常用操作示例
+__[表示此方法我没成功]__
 
-将仓库中的改动同步到本地
-在git-bash中进入项目目录下，使用git pull命令
- 
-本地有更新，上传到github仓库：
+---
 
-1. （先进入项目文件夹）通过命令 git init 把这个目录变成git可以管理的仓库
+另外, 就是使用 [Pygments](http://pygments.org/), 这个需要使用 Python 来安装
 
-	`git init`
+如果你不想麻烦, 可以直接使用我的这个 [syntax.css](/assets/css/syntax.css),
+ 这个就是最后使用 pygments 生成的默认的代码高亮 css 文件
 
-2. 把文件添加到版本库中，使用命令 git add .添加到暂存区里面去，不要忘记后面的小数点“.”，意为添加文件夹下的所有文件
-	
-    `git add .`
+- 把这个 syntax.css 放在 `/assets/css/syntax.css`
 
-3. 用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明
+- 在 `_include/head.html` 或者你自己的通用头文件里面添加 link
 
-    `git commit -m 'first commit'`
+```html
+<link rel="stylesheet" href="/assets/css/highlight.css">
+```
 
-4. 关联到远程库
-git remote add origin 你的远程库地址
-如：
-git remote add origin [github](https://github.com/cade8800/ionic-demo.git)
+- 然后再 `_config.yml` 设置 `highlight: true`
 
-5. 获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）
 
-	`git pull --rebase origin master`
+### 安装和使用 [Pygments](https://pypi.python.org/pypi/Pygments)
 
-6. 把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。
+```bash
+pip install pygments
+```
 
-	`git push -u origin master`
+安装完成后, 你需要用它来生成一个 css 文件, 放在你的 jekyll 项目中, 生成命令为
 
-7. 状态查询命令
+```bash
+pygmentize -S default -f html > style.css
+# 这个 -S 就是 style, 默认的style 为 firendly 具体得 style 可以参考 [Styles](http://pygments.org/docs/styles/)
+```
 
-	`git status`
+这个 style.css 就是我们所需要的.
+详细的 Pygments 的使用请参考其 [官方文档](http://pygments.org/docs/)
+
+
+### PS -\_-!!
+
+#### [Python](https://www.python.org) 和 [pip](https://pypi.python.org/pypi/pip/#downloads) 安装和使用
+
+- 下载安装 [Python](https://www.python.org/downloads)
+
+- 将 Python 的安装路径加入到环境变量 path
+
+- 下载 [pip](https://pypi.python.org/pypi/pip/#downloads) 安装包, 解压后进入到其目录, 使用此命令安装
+
+```bash
+python setup.py install
+```
+
+- 完成安装后, 在把 Python 安装目录下的 scripts 目录也加入到环境变量 path 里面
+
+然后就可以用 pip 安装 Python 包了
+
 
