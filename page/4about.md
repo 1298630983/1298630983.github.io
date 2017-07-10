@@ -22,7 +22,7 @@ type: page
 * GitHub：[1298630983](https://github.com/1298630983)
 * email：1298630983@qq.com
 
-欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)。
+欢迎大家提一些对本站主题的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/1298630983/1298630983.github.io/issues)。
 
 ## Comments
 
