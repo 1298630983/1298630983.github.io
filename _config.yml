@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "1298630983.github.io"
 github_username:  1298630983
 
+baidu_tongji_id: 1a8744eb5b2fe20f2f27f38a46fbc853
+
 # Build settings
 markdown: kramdown
 
