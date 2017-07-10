@@ -4,7 +4,7 @@ title: Jekyll语法高亮问题
 time: 2017年07月08日 星期六
 location: 广州
 pulished: true
-excerpt_separator: "#"
+excerpt_separator: "---"
 ---
 
 

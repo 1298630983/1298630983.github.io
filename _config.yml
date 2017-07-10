@@ -1,31 +1,20 @@
 # Site settings
 title: 江松
+email: 1298630983@qq.com
 description: 江松
 favicon: /assets/img/avatar.JPG
-baseurl:
-url: https://1298630983.github.io
-rss_url:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "1298630983.github.io"
+github_username:  1298630983
 
 # Build settings
-
-highlight: true
-#highlighter: rouge
-
-timezone: Asia/Shanghai
-
 markdown: kramdown
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+kramdown: 
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    
+timezone: Asia/Shanghai
+highlight: true
