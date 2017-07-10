@@ -1,5 +1,0 @@
-source "https://rubygems.org"
-gem "rake"
-gem "tzinfo"
-gem "tzinfo-data"
-gem "jekyll"
