@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "iPhone SE上手，能否再战三年？"
-categories: Linux
-tags: Centos
+categories: 评测
+tags: iPhone
 author: Jason
-excerpt_separator: "外"
+excerpt_separator: "###"
 ---
 
 * 目录
@@ -24,7 +24,7 @@ excerpt_separator: "外"
 
 <img src="/img/SE/2.jpg" />
 
-<img src="/img/SE/7.jpg" />
+<img src="/img/SE/7.JPG" />
 
 当然除了听筒摄像头位置不变之外，Home键貌似没有变化，实则采用了新一代指纹解锁技术，相比上一代有了明显提升，不过放在今天，速度没有太大问题，就是解锁成功率较低，且手指不能沾有油和水。
 
@@ -32,13 +32,13 @@ excerpt_separator: "外"
 
 iPhone SE背部与5s唯一的区别可能就在于iPhone下方多了**SE**的标志。
 
-<img src="/img/SE/4.jpg" />
+<img src="/img/SE/4.JPG" />
 
 总的来说，iPhone SE外观完全就是5s的复刻版，不过这样经典的设计放在今天，颜值依然爆表！
 
 <img src="/img/SE/5.jpg" />
 
-<img src="/img/SE/6.jpg" />
+<img src="/img/SE/6.JPG" />
 
 ### 性能
 
@@ -48,7 +48,7 @@ iPhone SE背部与5s唯一的区别可能就在于iPhone下方多了**SE**的标志。
 
 通过跑分情况来看，总分15w左右的成绩，和6s差不多。
 
-<img src="/img/SE/9.png" />
+<img src="/img/SE/9.PNG" />
 
 当然，跑分只是娱乐一下，实际体验还是比较流畅的，这里有一大部分要归功于ios系统，下面就来聊聊每台手机的灵魂 - 系统。
 
@@ -68,7 +68,7 @@ iOS当年就是凭借自己的软件优势，霸占了手机市场。不可否认，app store的巨大成功，不
 
 不得不说苹果的相机调教，当年800w的时候就已经秒杀一大堆像素怪兽，是谁就不点名。首先看下SE的摄像头参数，1200wiSight摄像头，f/2.2光圈，辅以双色温闪光灯，支持Live Photos功能及4K视频录制。
 
-<img src="/img/SE/8.jpg" />
+<img src="/img/SE/8.JPG" />
 
 下面放几组样张供大家参考：
 
@@ -84,7 +84,7 @@ iOS当年就是凭借自己的软件优势，霸占了手机市场。不可否认，app store的巨大成功，不
 
 1642mAh是锂电池，你没有看错，这容量要是放安卓手机，可能要被人喷了。参数看虽小了些，但是实际使用下来，SE还是对得起“小钢炮”这一美誉的。
 
-<img src="/img/SE/13.png" />
+<img src="/img/SE/13.PNG" />
 
 ## 总结
 
