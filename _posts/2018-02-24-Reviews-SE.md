@@ -4,7 +4,7 @@ title:  "iPhone SE上手，能否再战三年？"
 categories: Reviews
 tags: iPhone
 author: Jason
-excerpt_separator: "###"
+excerpt_separator: "外"
 ---
 
 * 目录
