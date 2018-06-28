@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "iPhone SE上手，能否再战三年？"
-categories: 数码评测
+categories: Reviews
 tags: iPhone SE
 author: Jason
 excerpt_separator: "###"
