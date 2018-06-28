@@ -2,7 +2,7 @@
 layout: post
 title:  "iPhone SE上手，能否再战三年？"
 categories: Reviews
-tags: iPhone SE
+tags: iPhone
 author: Jason
 excerpt_separator: "###"
 ---
